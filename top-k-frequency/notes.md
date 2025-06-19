@@ -16,6 +16,7 @@ Given an integer array nums and an integer k, return the k most frequent element
 Use a **bucket sort strategy** instead of a heap to achieve linear time.
 The trick is to reverse-map frequencies to values:
 Build an array `freq[i]` that holds all numbers that appear exactly `i` times.
+The return the top `k` elements.
 
 ---
 
@@ -110,6 +111,3 @@ func topKFrequent(nums []int, k int) []int {
   * `freq[i]` contains all numbers that appeared `i` times
   * Max frequency is at most `len(nums)`, hence size `n + 1`
 
----
-
-Let me know if you'd like to see a heap-based alternative written the same way!
