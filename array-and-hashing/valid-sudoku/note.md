@@ -1,0 +1,1 @@
+TODO: i'll make notes when i understand the bitwise operations in go
