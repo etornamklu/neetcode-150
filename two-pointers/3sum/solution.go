@@ -3,7 +3,7 @@ package threesum
 import "sort"
 
 func ThreeSum(nums []int) [][]int {
-	res := [][]int{}
+	var res [][]int
 	sort.Ints(nums)
 
 	for i := range nums {
